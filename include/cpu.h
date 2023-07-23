@@ -31,7 +31,7 @@ typedef enum
 } status_flags;
 
 
-void set_bit_status_reg_bit(uint8_t *status_register, status_flags flag);
+void set_status_reg_bit(uint8_t *status_register, status_flags flag);
 void unset_status_reg_bit(uint8_t *status_register, status_flags flag);
 
 
