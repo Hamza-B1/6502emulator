@@ -1,5 +1,7 @@
-#include <stdio.h>
-#include <assert.h>
-#include "cpu.h"
+#include <check.h>
 
 
+int main()
+{
+    return 0;
+}

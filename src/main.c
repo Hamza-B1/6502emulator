@@ -3,8 +3,10 @@
 int main()
 {
     cpu cpu;
-    uint8_t num = 0;
-    set_status_reg_bit(&num, overflow);
-    set_status_reg_bit(&num, negative);
+    init(&cpu);
+    cpu.memory[0] = 0xA9;
+    cpu.memory[1] = 0xFF;
+    execute(&cpu, 2);
+    destroy(&cpu);
     return 0;
 }

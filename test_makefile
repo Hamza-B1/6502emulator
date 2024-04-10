@@ -1,0 +1,8 @@
+CC = gcc
+
+CFLAGS = -Wall -Wextra -Iinclude
+
+SRCDIR = src
+TESTDIR = test
+INCDIR = include
+DEBUGDIR = debug
